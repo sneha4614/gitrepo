@@ -6,9 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty","html:target/cucumber.html"}
-, features = "src/test/java/features"
+, features = "src/test/java/features/Purchaseproduct.feature"
         , glue = {"browsercontrol","StepDefinitions"}
-       // ,tag ="@smoketest"
+       ,tags ="@SmokeTest"
 )
 
 //Cucumber uses reporter plugins to produce reports that contain information about what scenarios have passed or failed.
