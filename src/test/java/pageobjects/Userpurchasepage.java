@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 import static org.junit.Assert.assertTrue;
 
 public class Userpurchasepage extends WebConnector {
-private String productnameXpath= "/html/body/div/div/div/div[2]/div/div/div/div[1]/div[2]/div[1]/a/div";
+private String productnameXpath= "//a[@id='item_4_title_link']//div[@class='inventory_item_name ']";
 
 private String AddToCartXpath = "//button[@id='add-to-cart-sauce-labs-backpack']";
 private String ShoppingCartXpath = "//div[@id='shopping_cart_container']";

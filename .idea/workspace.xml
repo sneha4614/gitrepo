@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ded38f86-4757-4b66-b6ab-d1a7369a78c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/DropDownSortStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PurchaseProductStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/UserPurchaseStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/Purchaseproduct.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/dropdownsort.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/userpurchase.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Basepage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Dropdownpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Loginpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Purchaseproductpage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Userpurchasepage.java" afterDir="false" />
+    <list default="true" id="ded38f86-4757-4b66-b6ab-d1a7369a78c1" name="Changes" comment="swaglabs login and purchase">
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/ProblemStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/problem.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/StepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/browsercontrol/WebConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsercontrol/WebConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/features/test1.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/test1.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConstantUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConstantUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/browsercontrol/CucumberHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browsercontrol/CucumberHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/Userpurchasepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/Userpurchasepage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,22 +59,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/sudhirpasham/IdeaProjects/gitrepomaven/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/sudhirpasham/IdeaProjects/gitrepomaven/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
@@ -138,6 +126,23 @@
       <option name="presentableId" value="Default" />
       <updated>1705936204675</updated>
     </task>
+    <task id="LOCAL-00001" summary="swaglabs login and purchase">
+      <option name="closed" value="true" />
+      <created>1708974942734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708974942734</updated>
+    </task>
+    <task id="LOCAL-00002" summary="swaglabs login and purchase">
+      <option name="closed" value="true" />
+      <created>1708975063062</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708975063062</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -145,6 +150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="swaglabs login and purchase" />
+    <option name="LAST_COMMIT_MESSAGE" value="swaglabs login and purchase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
